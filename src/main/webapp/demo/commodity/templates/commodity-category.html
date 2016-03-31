@@ -7,15 +7,16 @@
     </div>
 </div>
 <div class="categoryAndCommodity">
-    <div id="iScrollCategoryWrapper" class="base-color">
+    <div id="iScrollCategoryWrapper" class="base-color" jp-iscroll>
         <ul id="categoryNav">
             <li class="category-item" ng-repeat="category in categoryList" ng-click="changeCategory($index)"
                 ng-class="{true: 'active'}[currentCategoryIndex==$index]">
                 {{category.name}}
+                {{refreshIScroll($last)}}
             </li>
         </ul>
     </div>
-    <div class="iScrollCommodityWrapper">
+    <div class="iScrollCommodityWrapper" jp-iscroll>
         <ul>
             <li class="commodityItem" ng-repeat="commodity in commodityList" ng-click="commodityDetail(commodity.id)">
                 <div class="image"><img ng-src="{{commodity.imgUrl}}"></div>

@@ -7,16 +7,20 @@
     define(['angular'], function (angular) {
         var moduleName = 'CategoryModule';
 
+        var commodityList = [];
+        for (var i = 0; i < 15; i++) {
+            commodityList.push({
+                id: '1' + i,
+                name: '面包' + i,
+                price: i,
+                specification: '....' + i,
+                imgUrl: ''
+            });
+        }
         var allCategory = [{
             id: '1',
             name: '吃的',
-            commodityList: [{
-                id: '11',
-                name: '面包',
-                price: 11,
-                specification: '....',
-                imgUrl: ''
-            }]
+            commodityList: commodityList
         }, {
             id: '2',
             name: '穿的',
@@ -28,6 +32,13 @@
                 imgUrl: ''
             }]
         }];
+
+        for (var i = 2; i < 15; i++) {
+            allCategory.push({
+                id: i,
+                name: i
+            });
+        }
 
         var commodity = {
             id: '11',

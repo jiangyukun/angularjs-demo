@@ -8,10 +8,12 @@
     require(['angular', 'angular-route'], function (angular) {
         // console.log(angular);
         require(['services/CategoryService',
+            'directives/IScrollDirective',
             'controllers/IndexController',
             'controllers/CommodityDetailController'
-        ], function (CategoryService, IndexController, CommodityDetailController) {
+        ], function (CategoryService, IScrollDirective, IndexController, CommodityDetailController) {
             angular.module('commodity', ['ngRoute', CategoryService])
+                .directive('jpIscroll', IScrollDirective)
                 .controller('IndexController', IndexController)
                 .controller('CommodityDetailController', CommodityDetailController)
                 .config(['$routeProvider', function ($routeProvider) {
