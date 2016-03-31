@@ -1,0 +1,113 @@
+<div class="commodity-info-content font14px base-color">
+    <div class="container-fluid">
+        <div class="row top-row">
+            <div class="selectPicArea">
+                <div class="pictureContainer"></div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">商品条码</div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="row">
+                    <span id="barcodeInfo" class="commodity-info font14px">{{commodity.barcodeInfo}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">商品名称</div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="row">
+                    <span id="commodityNameOfInfo" class="commodity-info font14px">{{commodity.name}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">商品分类</div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="row">
+                    <span id="commodityCategoryOfInfo" class="commodity-info font14px">{{commodity.categoryName}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">商品规格</div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="row">
+                    <span id="commoditySpecificationOfInfo" class="commodity-info font14px">{{commodity.specification}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">零售价格</div>
+                </div>
+            </div>
+            <div class="col-xs-8">
+                <div class="row">
+                    <span id="commodityPriceOfInfo" class="commodity-info font14px">{{commodity.price}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="row my-row">
+            <div class="col-xs-3">
+                <div class="row">
+                    <div class="form-control-static form-label font14px">推荐</div>
+                </div>
+            </div>
+            <div class="col-xs-9">
+                <div class="row" style="margin-left: 0;">
+                    <input id="isRecommendedOfInfo" class="commodity-info font14px" type="checkbox" disabled ng-check="{{commodity.recommend}}">
+                    <span class="commodity-info base-tip-color recommend-tip font14px">推荐后，将显示在推荐中心</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-3">
+                <div id="back" class="text-center">
+                    <div class="iconContainer"><img src="images/icon/back.png"></div>
+                    <div>返回</div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div id="deleteCommodity" class="text-center">
+                    <div class="iconContainer"><img src="images/icon/delete.png"></div>
+                    <div>删除</div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div id="undercarriageCommodity" class="text-center">
+                    <div class="iconContainer"><img src="images/icon/undercarriage.png"></div>
+                    <div>下架</div>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <div id="editCommodity" class="text-center">
+                    <div class="iconContainer"><img src="images/icon/edit.png"></div>
+                    <div>编辑</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

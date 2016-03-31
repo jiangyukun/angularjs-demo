@@ -1,0 +1,44 @@
+.commodity-info-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3.75rem;
+    overflow: auto;
+}
+
+.commodity-info-content .container-fluid {
+    background: #fff;
+}
+
+.preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10.833rem;
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-row {
+    height: 10.833rem;
+}
+
+.commodity-info {
+    display: inline-block;
+    margin: 0.583rem 0.416rem 0 0.666rem;
+}
+
+#selectCategory {
+    padding-top: 0.583rem;
+    margin-left: -1.5rem;
+}
+
+#recommendCheckbox {
+    margin: 0.666rem 0.416rem 0 0.666rem;
+}

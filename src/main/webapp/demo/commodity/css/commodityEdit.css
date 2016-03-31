@@ -1,0 +1,62 @@
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3.5rem;
+    overflow: auto;
+}
+
+.row4 #selectCategory {
+    padding-top: 0.583rem;
+    color: #999;
+    margin-left: -1.5rem;
+}
+
+.form-control {
+    border: 0;
+}
+
+#recommendCheckbox {
+    margin: 1.5rem 0.416rem 0 0.666rem;
+}
+
+/*取消，确定*/
+.btn-cancel .btn-confirm {
+    border: 0;
+    color: #fff;
+}
+
+.btn-cancel {
+    background-color: #6b6b6b;
+}
+
+.btn-confirm {
+    background-color: #EA8010;
+}
+
+.navbar-fixed-bottom .row {
+    padding: 0.416rem 0;
+    background-color: black;
+}
+
+/*选择分类*/
+#selectCategoryItemPopup {
+    z-index: 1111;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+}
+
+#selectCategoryItemPopup .title {
+    padding: 0.8333rem;
+    background-color: #F2F2F2;
+}
+
+#selectCategoryItemPopup .panel-footer {
+    border: 0;
+    background: #fff;
+}

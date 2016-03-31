@@ -1,0 +1,180 @@
+.add-commodity-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3.75rem;
+    overflow: auto;
+}
+
+.add-commodity-content .container-fluid {
+    background: #fff;
+}
+
+.add-commodity-content input {
+    padding: 0.333rem 1rem;
+}
+
+.selectPicArea, .add-image, .pictureContainer, .file-input {
+    height: 18.333rem;
+}
+
+.selectPicArea {
+    position: relative;
+    width: 18.333rem;
+    margin: 0 auto;
+}
+
+.add-image, .pictureContainer, .file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 18.333rem;
+}
+
+.add-image {
+    z-index: 1;
+}
+
+.file-input {
+    z-index: 3;
+    opacity: 0;
+}
+
+.pictureContainer {
+    z-index: 2;
+}
+
+.pictureContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.file-input {
+    height: 18.333rem;
+    overflow: hidden;
+}
+
+.file-input input {
+    display: inline-block;
+    width: 18.333rem;
+    height: 18.333rem;
+    opacity: 0;
+}
+
+#addImageArea {
+    margin: 5rem auto;
+    width: 8.333rem;
+}
+
+.top-row {
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #eee;
+}
+
+.my-row {
+    padding: 0.583rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.barcode-scan {
+    padding-top: 0.333rem;
+}
+
+.row4 #selectCategory {
+    padding-top: 0.583rem;
+    color: #999;
+    margin-left: -1.5rem;
+}
+
+.form-control-static {
+    color: #BCBCBC;
+    padding: 0.5rem 0.666rem 0.583rem 0.666rem;
+}
+
+.form-control {
+    border: 0;
+}
+
+.recommendCheckbox {
+    margin: 0.666rem 0.416rem 0 0.666rem;
+}
+
+.down-icon {
+    padding-left: 1.666rem;
+}
+
+#isRecommended, #isRecommendedOfInfo {
+    vertical-align: top;
+    margin-top: 0.8333rem;
+    padding: .5rem;
+}
+
+.recommend-tip {
+    word-break: keep-all;
+    -ms-word-break: keep-all;
+    white-space: nowrap;
+}
+
+/*取消，确定*/
+.btn-cancel .btn-confirm {
+    border: 0;
+    color: #fff;
+}
+
+.btn-cancel {
+    background-color: #6b6b6b;
+}
+
+.btn-confirm {
+    background-color: #EA8010;
+}
+
+/*选择分类*/
+#selectCategoryItemPopup {
+    z-index: 1111;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    position: fixed;
+}
+
+.select-category-title {
+    color: #FE7700;
+}
+
+#selectCategoryItemPopup .panel-footer {
+    border: 0;
+    background: #fff;
+}
+
+.category-item-select {
+    padding: 0.833rem 1.666rem;
+    border-bottom: 1px solid #eee;
+}
+
+#categorySelectItems {
+    position: absolute;
+    top: 3.5rem;
+    left: 0;
+    right: 0;
+    bottom: 3.5rem;
+    overflow: scroll;
+}
+
+#categorySelectItems .list-item {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.add-of-select-category {
+    border: 1px solid #eee;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.75rem;
+}

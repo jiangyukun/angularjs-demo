@@ -1,0 +1,207 @@
+.searchBox {
+    position: absolute;
+    top: 3.333rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2000;
+    color: #BCBAB6;
+}
+
+.searchResult {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 3.75rem;
+    overflow: scroll;
+}
+
+#searchResultList {
+    background: #fff;
+}
+
+.search-back {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 3.75rem;
+    background: #fff;
+}
+
+#searchCommodity {
+    border-radius: 0.416rem;
+    height: 2.083rem;
+    line-height: 2.083rem;
+    width: 100%;
+    padding: 0.416rem;
+    text-align: center;
+    border: 1px solid #F8F8F8;
+}
+
+.searchContainer {
+    padding: 0 1.25rem;
+    color: gray;
+    height: 3.333rem;
+    line-height: 3.333rem;
+    text-align: center;
+}
+
+.navbar-fixed-bottom {
+    height: 3.75rem;
+    background-color: white;
+    border-top: 1px solid #BCBCBC;
+}
+
+.item-icon-container {
+    float: right;
+    width: 1.916rem;
+    height: 1.916rem
+}
+
+.iconContainer {
+    display: inline-block;
+    margin-top: 0.166rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.categoryAndCommodity {
+    position: absolute;
+    overflow: scroll;
+    top: 3.333rem;
+    bottom: 3.75rem;
+    left: 0;
+    right: 0;
+}
+
+.category-item {
+    height: 3.333rem;
+    display: block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    border-radius: 0;
+    padding: 0.833rem 1.25rem 0.833rem 0.833rem;
+}
+
+.empty-category {
+    padding: 1.666rem 3.333rem;
+    color: #bbb;
+}
+
+.category-item.active {
+    color: #fe7700;
+    background-color: #fff;
+    border-left: 0.25rem solid #fe7700;
+}
+
+.iScrollCommodityWrapper, #iScrollCategoryWrapper {
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: scroll;
+}
+
+.iScrollCommodityWrapper {
+    left: 7.083rem;
+    right: 0;
+    background: #fff;
+}
+
+#iScrollCategoryWrapper {
+    left: 0;
+    width: 7.083rem;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.category-nav-bar {
+    padding: 0;
+    margin: 0;
+}
+
+.commodityItem {
+    height: 7.583rem;
+    border: 0;
+    border-bottom: 1px solid #F8F8F8;
+    margin-left: 0.416rem;
+    padding: 0.416rem 0.416rem 0.416rem 0;
+}
+
+.commodity-basic-info {
+    margin-left: 0.833rem;
+    display: inline-block;
+}
+
+.right-arrow {
+    float: right;
+    margin-top: 2.083rem;
+    color: #eee;
+}
+
+.commodityName {
+    height: 1.166rem;
+    padding-top: 0.25rem;
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.commoditySpecification {
+    height: 1.8333rem;
+    margin-top: 1.6666rem;
+    white-space: nowrap;
+    color: #BCBCBC;
+}
+
+.commodityPrice {
+    color: red;
+    height: 1.8333rem;
+    white-space: nowrap;
+}
+
+.image {
+    float: left;
+    width: 6.666rem;
+    height: 6.666rem;
+    padding: 0.416rem 0.416rem 0.416rem 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.default-img {
+    display: inline-block;
+    width: 2.666rem;
+    height: 2.666rem;
+    margin-top: 2rem;
+}
+
+.navbar-fixed-bottom .text-center div {
+    color: #BCBAB6;
+}
+
+#barcodeAdd, #manualAddNav, #categoryManage {
+    float: left;
+    width: 33.333%;
+}
+
+.nav-icon {
+    line-height: 2rem;
+    height: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.weui_cells_title {
+    text-align: center;
+}

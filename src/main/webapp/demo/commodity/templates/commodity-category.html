@@ -1,0 +1,58 @@
+<div id="commoditySearchArea" class="navbar-fixed-top">
+    <div class="searchContainer base-color">
+        <form id="searchCommodityForm" ng-submit="searchCommodity(searchName)">
+            <input id="searchCommodity" class="font14px" type="search" name="search"
+                   placeholder="查询商品" ng-model="searchName"/>
+        </form>
+    </div>
+</div>
+<div class="categoryAndCommodity">
+    <div id="iScrollCategoryWrapper" class="base-color">
+        <ul id="categoryNav">
+            <li class="category-item" ng-repeat="category in categoryList" ng-click="changeCategory($index)"
+                ng-class="{true: 'active'}[currentCategoryIndex==$index]">
+                {{category.name}}
+            </li>
+        </ul>
+    </div>
+    <div class="iScrollCommodityWrapper">
+        <ul>
+            <li class="commodityItem" ng-repeat="commodity in commodityList" ng-click="commodityDetail(commodity.id)">
+                <div class="image"><img ng-src="{{commodity.imgUrl}}"></div>
+                <div class="commodity-basic-info">
+                    <div class="commodityName">{{commodity.name}}</div>
+                    <div class="commoditySpecification">{{commodity.specification}}</div>
+                    <div class="commodityPrice">{{commodity.price}}</div>
+                </div>
+                <div class="right-arrow">
+                    <div class="iconContainer"><img src="images/icon/right.png"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="navbar-fixed-bottom">
+    <div id="barcodeAdd" class="text-center" ng-click="barcodeAdd()">
+        <div class="iconContainer"><img src="images/icon/barcode.png"></div>
+        <div>扫码新增</div>
+    </div>
+    <div id="manualAddNav" class="text-center" ng-click="manualAddNav()">
+        <div class="iconContainer"><img src="images/icon/addManual.png"></div>
+        <div>手动新增</div>
+    </div>
+    <div id="categoryManage" class="text-center" ng-click="categoryManage()">
+        <div class="iconContainer"><img src="images/icon/category.png"></div>
+        <div>分类管理</div>
+    </div>
+</div>
+<div class="searchBox base-color" ng-if="showSearchPanel">
+    <div class="searchResult">
+        <ul id="searchResultList"></ul>
+        <div class="text-center technology-support font12px">xxx.技术支持</div>
+    </div>
+    <div class="text-center search-back" ng-click="goBack()">
+        <div class="iconContainer"><img src="images/icon/back.png"></div>
+        <div>返回前页</div>
+    </div>
+</div>

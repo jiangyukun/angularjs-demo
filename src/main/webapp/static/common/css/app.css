@@ -1,0 +1,252 @@
+
+.font12 {
+    font-size: 12px;
+}
+
+.font14 {
+    font-size: 14px;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+html, .base-color {
+    background-color: #F0EFF5;
+}
+
+.base-tip-color {
+    color: #BCBCBC;
+}
+
+.page-container, .page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.page-container {
+    overflow: hidden
+}
+
+.page {
+    background-color: #F0EFF5;
+    overflow-y: scroll;
+    z-index: 5000;
+}
+
+.page {
+    font-size: 12px;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.navbar-fixed-top {
+    top: 0;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+}
+
+.fa-plus-circle {
+    font-size: 22px;
+}
+
+/*loading*/
+.weui_mask_transparent {
+    z-index: 5005;
+}
+
+.weui_toast {
+    z-index: 5006;
+}
+
+.weui_mask, .weui_mask_transition {
+    z-index: 5001;
+}
+
+.weui_dialog, .weui_actionsheet {
+    z-index: 5002;
+}
+
+.weui_dialog, .weui_actionsheet_toggle {
+    background: #fff;
+}
+
+.popup-p30-to-up {
+    top: 30%;
+}
+
+.technology-support {
+    text-align: center;
+    color: #BFBFBF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 12px;
+    background-color: #F0EFF5;
+}
+
+.hidden {
+    display: none;
+}
+
+/*固定的导航条*/
+.top-nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    margin-left: 2px;
+    padding: 2px 10px;
+    background-color: #F8F8F8;
+    font-size: 12px;
+    color: #ccc;
+}
+
+/*列表*/
+.item-lists {
+    font-size: 14px;
+    background: #fff;
+}
+
+.list-item {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+/*按钮*/
+.i_btn {
+    display: inline-block;
+    font-size: 14px;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 0;
+    /*font-size: 14px;*/
+    font-weight: normal;
+    /*line-height: 1.42857143;*/
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.i_btn_cancel {
+    background: white;
+    border: 1px solid black;
+    margin: 6px 5px;
+}
+
+.i_btn_confirm {
+    color: #fff;
+    background: #FE7F00;
+    border: 1px solid #FE7F00;
+    margin: 6px 5px;
+}
+
+.weui_btn_dialog.primary.js_btn_confirm {
+    color: #FE7F00;
+}
+
+.weui_dialog .alert-dialog-content, .confirm-dialog-content {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.weui_dialog_confirm .weui_dialog .confirm-dialog-content {
+    text-align: center;
+}
+
+/*popup*/
+.popup-title {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    color: #BCBCBC !important;
+}
+
+input::-moz-placeholder {
+    color: #BCBCBC !important;
+}
+
+input:-ms-input-placeholder {
+    color: #BCBCBC !important;
+}
+
+/*页面切换动画*/
+@-webkit-keyframes slideIn {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@keyframes slideIn {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+@-webkit-keyframes slideOut {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    to {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+}
+
+@keyframes slideOut {
+    from {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+    to {
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+}
+
+.page.slideIn {
+    -webkit-animation: slideIn .2s forwards;
+    animation: slideIn .2s forwards
+}
+
+.page.slideOut {
+    -webkit-animation: slideOut .2s forwards;
+    animation: slideOut .2s forwards
+}

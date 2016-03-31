@@ -1,0 +1,144 @@
+
+.weui_cell {
+    padding: 1.083rem 1.25rem;
+}
+
+.categoryListOfCategoryManage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+}
+
+#categoryItemList {
+    background: #fff;
+}
+
+.categoryItemOfCategoryManage {
+    padding: 0.916rem 0.833rem 0.916rem 1.666rem;
+    border-bottom: 1px solid #eee;
+}
+
+.addCategoryItemOfCategoryManage {
+    position: relative;
+    padding: 0.833rem 1.666rem;
+    border-bottom: 1px solid #eee;
+    color: red;
+}
+
+.add-category-item-tip {
+    margin-left: 0.333rem;
+    display: inline-block;
+}
+
+/*导航*/
+.category-back, .add-category-item {
+    float: left;
+    width: 50%;
+}
+
+/*弹出框*/
+.add-category-item-input {
+    padding: 0.416rem;
+    width: 100%;
+    margin: 0.833rem 0 0.833rem 0;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    outline: none;
+}
+
+/*编辑*/
+#editCategoryItemPanel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: scroll;
+}
+
+.edit-category-title {
+    padding: 0.833rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+#editCategoryItemPanel .weui_cells {
+    margin-top: 0;
+}
+
+#editCategoryItemPanel .weui_cells .weui_label {
+    width: 5em;
+    margin-bottom: 0;
+}
+
+#editCategoryItemPanel .weui_cells_title {
+    margin: 1.25rem 0;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.weight-input {
+    width: 100%;
+    border: 0;
+    padding: 0.333rem 0;
+
+}
+
+.edit-category-item-tip {
+    color: #d1d1d1;
+    padding: 0.833rem 1.666rem 0.416rem 1.666rem;
+}
+
+.edit-category-item-tip div {
+    margin-top: 0.833rem;
+    margin-bottom: 0.833rem;
+}
+
+.edit-category-btns {
+    margin: 0.416rem 0;
+}
+
+.delete-category-item {
+    float: left;
+    width: 50%;
+}
+
+.edit-category-item {
+    float: right;
+    width: 50%;
+}
+
+.delete-btn, .confirm-btn {
+    border: 0;
+    width: 10rem;
+    padding: 0.333rem 1.666rem;
+    color: white;
+}
+
+.delete-btn {
+    float: right;
+    margin-right: 0.416rem;
+}
+
+.confirm-btn {
+    margin-left: 0.416rem;
+    float: left;
+}
+
+.delete-btn {
+    background: red;
+}
+
+.confirm-btn {
+    background: #EA8010;
+}

@@ -1,0 +1,180 @@
+
+ul {
+    margin-bottom: 0;
+}
+
+li {
+    list-style: none;
+}
+
+html, .base-color {
+    background-color: #F0EFF5;
+}
+
+.base-tip-color {
+    color: #BCBCBC;
+}
+
+.page-container, .page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.page-container {
+    overflow: hidden
+}
+
+.page {
+    background-color: #F0EFF5;
+    overflow-y: scroll;
+    z-index: 5000;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.navbar-fixed-top {
+    top: 0;
+}
+
+.navbar-fixed-bottom {
+    bottom: 0;
+}
+
+/*loading*/
+.weui_mask_transparent {
+    z-index: 5005;
+}
+
+.weui_toast {
+    z-index: 5006;
+}
+
+.weui_mask, .weui_mask_transition {
+    z-index: 5001;
+}
+
+.weui_dialog, .weui_actionsheet {
+    z-index: 5002;
+}
+
+.weui_dialog, .weui_actionsheet_toggle {
+    background: #fff;
+}
+
+.popup-p30-to-up {
+    top: 30%;
+}
+
+.technology-support {
+    text-align: center;
+    color: #BFBFBF;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    background-color: #F0EFF5;
+}
+
+.hidden {
+    display: none;
+}
+
+/*固定的导航条*/
+.top-nav-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/*列表*/
+.item-lists {
+    background: #fff;
+}
+
+.list-item {
+    padding: 0.8333rem 1.6666rem;
+    border-bottom: 1px solid #F8F8F8;
+}
+
+/*按钮*/
+.i_btn {
+    display: inline-block;
+    width: 10rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.i_btn_cancel {
+    background: white;
+    border: 1px solid black;
+    margin: 0.5rem 0.4166rem;
+}
+
+.i_btn_confirm {
+    color: #fff;
+    background: #FE7F00;
+    border: 1px solid #FE7F00;
+    margin: 0.5rem 0.4166rem;
+}
+
+/*weui*/
+.weui_dialog {
+    width: 75%;
+}
+
+.weui_toast {
+    top: 15rem;
+}
+
+.weui_dialog_ft {
+    position: relative;
+    line-height: 3.5rem;
+    margin-top: 1.2rem;
+}
+
+.weui_btn_dialog.primary.js_btn_confirm {
+    color: #FE7F00;
+}
+
+.weui_dialog .alert-dialog-content, .confirm-dialog-content {
+    margin-top: 1.2rem;
+}
+
+.weui_dialog_confirm .weui_dialog .confirm-dialog-content {
+    text-align: center;
+}
+
+/*popup*/
+.popup-title {
+    padding: 0.8333rem;
+    text-align: center;
+}
+
+input::-webkit-input-placeholder {
+    color: #BCBCBC !important;
+}
+
+input::-moz-placeholder {
+    color: #BCBCBC !important;
+}
+
+input:-ms-input-placeholder {
+    color: #BCBCBC !important;
+}
